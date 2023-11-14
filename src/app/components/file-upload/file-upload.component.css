@@ -1,0 +1,57 @@
+.file-drop-area {
+  border: 2px dashed #ccc;
+  padding: 20px;
+  text-align: center;
+  cursor: pointer;
+}
+
+.file-drop-area:hover {
+  background-color: #f7f7f7;
+}
+
+input[type="file"] {
+  display: none;
+}
+
+h3 {
+  margin-top: 20px;
+}
+
+/* Styles for better visual feedback */
+.file-drop-area.drag-over {
+  background-color: #eaf6ff;
+  border-color: #2196f3;
+}
+
+.file-drop-area.drag-over p {
+  color: #2196f3;
+}
+
+.file-drop-area.drag-over input {
+  border-color: #2196f3;
+}
+
+/* Styles for the selected file section */
+.selected-file {
+  margin-top: 20px;
+  background-color: #f0f8ff;
+  padding: 10px;
+  border: 1px solid #ddd;
+}
+
+/* Additional style for the input[type="file"] to make it clickable */
+.file-input-container {
+  margin-top: 10px;
+}
+
+/* Styles to hide the default file input and style a custom one */
+.custom-file-input {
+  border: 2px solid #ccc;
+  padding: 10px;
+  cursor: pointer;
+  display: inline-block;
+}
+
+.custom-file-input:hover {
+  background-color: #f7f7f7;
+}

@@ -1,0 +1,7 @@
+<div class="file-drop-area border p-3" (drop)="onFileDropped($event)" (dragover)="onDragOver($event)">
+  <p class="mb-2">Arrastra y suelta un archivo aquí o haz clic para seleccionar uno.</p>
+  <div class="custom-file-input btn btn-secondary" (click)="fileInput.click()">
+    Selecciona un archivo
+  </div>
+  <input #fileInput class="hidden" type="file" (change)="onFileSelected($event)" accept="image/*, .pdf, .doc, .docx" />
+</div>

@@ -1,0 +1,6 @@
+
+.file-upload-container {
+  display: flex;
+  justify-content: space-between; /* Otra opción: justify-content: space-around; */
+  margin: 20px;
+}
