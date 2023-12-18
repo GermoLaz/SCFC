@@ -14,7 +14,7 @@ export class AuthService {
       // Simula un retraso de red
       delay(1000),
       // Simula una comprobación de autenticación
-      map(credentials => credentials.username === 'user' && credentials.password === 'password')
+      map(credentials => credentials.username === 'user@gmail.com' && credentials.password === 'password')
     );
   }
 }
